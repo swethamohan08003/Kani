@@ -1,0 +1,100 @@
+body{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3;
+    
+}
+/*This is html*/
+div{
+    height: 10vh;
+    background-color:blueviolet;
+    color:black;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    min-width: 20%;
+}
+div:hover{
+    color: red;
+    background-color: brown;
+    scale: 1.2;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+{
+color:rgb(7, 7, 97)
+min-width: 20%;
+float: right;
+}
+
+.container{
+    height: 25vh;
+    width: 97%;
+    background-color:rgb(60, 231, 231);
+    padding: 10px;
+}
+.child{
+    min-width: 29%;
+    height: 20vh;
+    background-color: rgb(245, 125, 125);
+    min-width: 375px;
+}
+.child hover{
+    scale: 1.1;
+    background-color: aqua;
+
+}
+.card{
+    height: fit-content;
+    display: grid;
+    max-width: fit-content;
+    background-color: blueviolet;
+    color: azure;
+    font-size: small;
+    border-radius: 50px;
+    box-shadow: ;
+    
+}
+
+.card :hover{
+    cursor:pointer;
+    transition: 400px;
+}
+    span{
+        display: contents;
+    }
+   
+
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+    body{
+        background-color:skyblue;
+        display: grid;
+    }
+    div{
+        background-color:gray;
+
+    }
+    h1{
+        color:black
+    }
+}   
+
+
+
+
+
+
+
+    
+
+.child{
+    width: 88%;
+    height: 20vh;
+    background-color: antiquewhite;
+    
+}
+
+

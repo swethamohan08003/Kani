@@ -1,0 +1,24 @@
+
+
+
+
+body{
+    background-color: whitesmoke;text-align: center;color: black;
+}
+div{height: 60vh;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    background-color:white;
+    color:black;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 8px 12p white
+
+}
+.child:hover{scale: 1.1;transition: 300ms; background-color: white;
+
+
+
+
+

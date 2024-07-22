@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(130,204,130);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+.card{
+    height: fit-content;
+    display: grid;
+    max-width: fit-content;
+    border-radius: 5px;
+    box-shadow: 10px 8px 4px;
+    font-size: medium;
+    color: black;
+    background-color: aqua;
+    margin: 5px;
+}
+.card :hover{
+    cursor: pointer;
+}
